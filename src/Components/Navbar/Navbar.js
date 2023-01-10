@@ -17,12 +17,12 @@ const Navbar = () => {
 
 
         <UlList>
-          <ListItem><Anchor><Link id="RouterNavLink" to="/">Home</Link></Anchor></ListItem>
-          <ListItem><Anchor><Link to={'/work'}>Work</Link></Anchor></ListItem>
-          <ListItem><Anchor><Link to={'/Portfolio'}>Portfolio</Link></Anchor></ListItem>
-          <ListItem><Anchor><Link to={'/Profile'}>Resume</Link></Anchor></ListItem>
-          <ListItem><Anchor><Link to={'/About'}>About</Link></Anchor></ListItem>
-          <ListItem><Anchor><Link to="/contact" style={null}>Contact</Link> </Anchor></ListItem>
+          <ListItem><Anchor><Link className='NavLinks' id="RouterNavLink" to="/">Home</Link></Anchor></ListItem>
+          <ListItem><Anchor><Link className='NavLinks' to={'/work'}>Work</Link></Anchor></ListItem>
+          <ListItem><Anchor><Link className='NavLinks' to={'/Portfolio'}>Portfolio</Link></Anchor></ListItem>
+          <ListItem><Anchor><Link className='NavLinks' to={'/Profile'}>Resume</Link></Anchor></ListItem>
+          <ListItem><Anchor><Link className='NavLinks' to={'/About'}>About</Link></Anchor></ListItem>
+          <ListItem><Anchor><Link className='NavLinks' to="/contact" style={null}>Contact</Link> </Anchor></ListItem>
         </UlList>
 
       </div>
