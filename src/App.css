@@ -170,10 +170,3 @@
         width: 90%;
     }
 }
-.NavLinks {
-    text-decoration: none;
-    color: black;
-}
-.NavLinks:hover {
-    color: #eb5424;
-}

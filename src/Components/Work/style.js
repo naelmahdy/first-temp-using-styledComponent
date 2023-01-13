@@ -32,8 +32,21 @@ border: 1px solid #888;
 box-sizing: border-box;
 text-align: center;
 
-margin-left: ${props => props.first === 1 ? 0 : '5%'}
 
+@media (max-width:575px){
+    width: 100%;
+    float: none;
+    margin-left: 0;
+}
+@media (min-width: 576px )and (max-width:768px) {
+    width: 47%;
+    margin-left: ${props => props.first === 3 ? 0 : '5%'}
+
+}
+
+
+
+margin-left: ${props => props.first === 1 ? 0 : '5%'}
 `
 
 

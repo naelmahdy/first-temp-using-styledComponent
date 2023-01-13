@@ -12,6 +12,11 @@ float: left;
 box-sizing: border-box;
 padding: 100px 0 100px 60px;
 
+@media (max-width:991px) {
+    width: 100%;
+    float: none;
+}
+
 background:${props => props.item === 1 ? '#3b5998' : ''};
 background:${props => props.item === 2 ? ' #498cbf' : ''};
 background:${props => props.item === 3 ? '#cc2127' : ''};

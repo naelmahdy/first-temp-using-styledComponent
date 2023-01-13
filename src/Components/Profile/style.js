@@ -13,6 +13,12 @@ overflow:hidden;
 export const Profiles = styled.div`
 width:50%;
 float:left;
+@media (max-width:768px) {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+
+}
 `
 export const ProfileList = styled.ul`
 list-style: none;
@@ -32,6 +38,10 @@ color: #eb5424;
 export const Skills = styled.div`
 width:50%;
     float:left;
+    @media (max-width:768px) {
+        width: 100%;
+        float: none;
+    }
 `
 export const SkillsDesc = styled.p`
 font-size: 15px;

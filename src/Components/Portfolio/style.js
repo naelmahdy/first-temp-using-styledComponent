@@ -27,8 +27,13 @@ export const PortfolioItem = styled.li`
 display:inline-block;
 width: 100px;
 padding: 10px;
+@media (max-width:575px) {
+    display: block;
+    margin: auto
+}
 background:${props => props.active ? '#eb5424' : ''}
 color:${props => props.active ? '#fff' : ''}
+
 `
 export const ImageWrapper = styled.div`
 width:25%;
@@ -37,6 +42,14 @@ font-size: 0;
 position: relative;
 &:hover>div{
     opacity: 1;
+}}
+@media (max-width:575px) {   
+         width: 100%;
+}
+@media (min-width:576px) and (max-width : 768px ){
+    
+        width: 50%;
+    
 }
 `
 

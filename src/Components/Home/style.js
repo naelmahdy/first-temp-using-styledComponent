@@ -25,12 +25,25 @@ export const HomeTitle = styled.h2`
 font-size: 60px;
 font-weight: bold;
 color: #5e5e5e;
+@media (max-width:768px){
+    font-size: 40px;
+    color: #fff;
+}
+@media (max-width:575px) {
+    font-size: 30px;
+
+}
+
 `
 
 export const HomeInfo = styled.h4`
 font-size: 35px;
 color: #eb5424;
 margin-bottom: 20px;
+@media (max-width:768px) {
+    font-size: 20px;
+
+}
 `
 
 
@@ -40,6 +53,10 @@ font-size: 20px;
 line-height: 1.5;
 color: #888;
 margin-bottom: 20px;
+@media (max-width:768px) {
+    font-size: 15px;
+
+}
 `
 
 
